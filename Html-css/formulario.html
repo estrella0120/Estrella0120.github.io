@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1 data_temp_dwid="1">Formulario</h1>
+</header>
+<nav><ul id="menu">
+  <li class="menutabla"><a href="Formato de textos.html" class="textomenu">FormatoTexto</a></li>
+  <li class="menutabla"><a href="Listas.html" class="textomenu">Listas</a></li>
+  <li class="menutabla"><a href="enlaces.html" class="textomenu">Enlaces</a></li>
+  <li class="menutabla"><a href="tablas.html" class="textomenu">Tablas</a></li>
+  <li class="menutabla"><a href="imagenes.html" class="textomenu">Imagenes</a></li>
+	<li class="menutabla"><a href="audio.html" class="textomenu">Audio</a></li>
+	<li class="menutabla"><a href="video.html" class="textomenu">Video</a></li>
+	<li class="menutabla"><a href="formulario.html" class="textomenu">Formulario</a></li>
+</ul> </nav>
+	
+<nav></nav>
+<main>
+  <section>
+    <h2 id="externo">Formulario</h2>
+    <br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt, consequuntur sequi eaque. Soluta inventore fugit autem pariatur quod perspiciatis necessitatibus laudantium accusantium harum vitae.</p>
+	  <form action="procesamiento.html" method="get" name="form1" id="form1">
+	 <label id="form1">Nombre:</label> <input type="text"> <label>Apellido:</label> <input type="text"> <input type="submit" id="submit">
+		  <br>
+</form>
+    <br>
+	</section>
+  <section>
+    <h2 id="externo2">Formulario con radio button</h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt, consequuntur sequi eaque. Soluta inventore fugit autem pariatur quod perspiciatis necessitatibus laudantium accusantium harum vitae.</p>
+    <form action="procesamiento.html" method="get" name="form2" id="form2">
+		<br><label>Selecciona tu genero:</label>
+		<br>
+		<br>
+        <table width="200" class="centro">
+          <tr>
+            <td><label>
+              <input type="radio" name="G&eacute;nero" value="fem" id="Geacutenero_0">
+              Femenino</label></td>
+          </tr>
+          <tr>
+            <td><label>
+              <input type="radio" name="G&eacute;nero" value="masc" id="Geacutenero_1">
+              Masculino</label></td>
+          </tr>
+        </table>
+      <br>
+        <label for="pais">¿De qué país nos visitas?:</label>
+        <select name="pais" id="pais">
+		  <option value="mx">México</option>
+			<option value="arg">Argentina</option>
+			<option value="es">España</option>
+			<option value="usa">Estados Unidos</option>
+			<option value="itl">Italia</option>
+        </select>
+			<br>
+			<label>¿Dondé residiras en tu estancia en el país?</label>
+			<br>
+          <label>
+            <input type="checkbox" name="residencia_temporal" value="hotel" id="residencia_temporal_0">
+            Hotel</label>
+          <br>
+          <label>
+            <input type="checkbox" name="residencia_temporal" value="airbnb" id="residencia_temporal_1">
+            Airbnb</label>
+          <br>
+		 <input type="checkbox" name="residencia_temporal" value="amigo" id="residencia_temporal_2">
+Con un amigo<br>
+<br>
+<center><input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar"></center>
+    </form>
+    <br>
+  </section>
+  <section> <h2>Formulario con radio button</h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt, consequuntur sequi eaque. Soluta inventore fugit autem pariatur quod perspiciatis necessitatibus laudantium accusantium harum vitae.</p>
+	  <br>
+  
+    <form action="procesamiento.html" method="get" name="form3" id="form3">
+      <br>
+		<h3>Formulario sobre Dreamcatcher</h3>
+		<br>
+		<label>¿Quién es tu bias?</label>
+		<br>
+		<br>
+		  <label>
+		    <input type="radio" name="bias" value="jiu" id="bias_0">
+		    Jiu</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="yoohyeon" id="bias_1">
+		    Yoohyeon</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="dami" id="bias_2">
+		    Dami</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="sua" id="bias_3">
+		    Sua</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="siyeon" id="bias_4">
+		    Siyeon</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="gahyeon" id="bias_5">
+		    Gahyeon</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="bias" value="handong" id="bias_6">
+		    Handong</label>
+		<br>
+		<br>
+            <label for="favcolor">Con que color relacionas al más al grupo:</label>
+		    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+		<br>
+		<br>
+  			<label for="quantity">Año debut del grupo:</label>
+ 			<input type="number" id="quantity" name="quantity" min="2013" max="2020">
+		<br>
+		<br>
+  			<label for="birthday">Día de estreno del mv del nuevo comeback:</label>
+			<input type="date" id="birthday" name="birthday">
+		<br>
+		<br>
+            <label for="fandom">Nombre del fandom:</label>
+            <input type="text" id="fandom" name="fandom" value=""><br>
+			<br>
+	  		<br>
+	<input type="submit" value="Enviar"> 
+	  </form>
+  </section>
+  <section>
+    <h2>Contacto </h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt, consequuntur sequi eaque. Soluta inventore fugit autem pariatur quod perspiciatis necessitatibus laudantium accusantium harum vitae.</p>
+	  <form action="procesamiento.html" method="get" name="form4" id="form4">
+		  <br>
+      	<label for="email" class="label2">Email:</label><br>
+		<center><input type="email" name="email" id="email"></center><br>
+		  <label for="textarea" class="label2">Comentario:</label><br>
+		  <center><textarea name="textarea" maxlength="200" id="textarea">Escribe aqui tu mensaje.</textarea>
+		  <br>
+		  <input type="submit" class="centrar" id="submit">
+		  <br>
+		  <br>
+    </f>
+	    </form>
+	</section>
+</main>
+<footer>
+<a href="../index.html" class="index">Hecho por Alejandra Estrella Baez</a></footer>
+</body>
+</html>
